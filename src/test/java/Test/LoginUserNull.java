@@ -4,10 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import Pages.LoginPage;
 
-
-public class SpaceNull extends BaseTest {
-
-	
+public class LoginUserNull  extends BaseTest {
 	
 	@Before
 	public void open(){
@@ -17,7 +14,8 @@ public class SpaceNull extends BaseTest {
 	@Test
 	public void loginCredenciales() {
 	LoginPage loginPage = new LoginPage(driver);
-	loginPage.enterCredentials("", "");
+	loginPage.enterCredentials("", "Timaius2688929");
 	loginPage.clickLoginButton();			
 	}
+
 }

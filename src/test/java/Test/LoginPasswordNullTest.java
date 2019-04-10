@@ -2,10 +2,12 @@ package Test;
 
 import org.junit.Before;
 import org.junit.Test;
+
 import Pages.LoginPage;
 
-public class UserNull  extends BaseTest {
+public class LoginPasswordNullTest extends BaseTest {
 	
+
 	@Before
 	public void open(){
 		driver.get("https://elaulaenlinea.com/login/index.php");
@@ -14,7 +16,7 @@ public class UserNull  extends BaseTest {
 	@Test
 	public void loginCredenciales() {
 	LoginPage loginPage = new LoginPage(driver);
-	loginPage.enterCredentials("", "Timaius2688929");
+	loginPage.enterCredentials("Marco07", "");
 	loginPage.clickLoginButton();			
 	}
 

@@ -15,7 +15,7 @@ public class RegisterPassword extends BaseTest {
 	@Test
 	public void registerCredencial() {
 	RegisterPage registerPage = new RegisterPage(driver);
-	registerPage.enterCredentials("Marco07","4321","mlopez@est.utn.ac.cr","mlopez@est.utn.ac.cr"
+	registerPage.enterCredentials("Marco2019","4321","mlopez@est.utn.ac.cr","mlopez@est.utn.ac.cr"
 			,"Marco","Antonio","Bajo Rodriguez","Costa Rica");
 	registerPage.clickLoginButton();			
 	}

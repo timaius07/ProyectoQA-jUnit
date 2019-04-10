@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import Pages.LoginPage;
 
-public class UserOK extends BaseTest {
+public class LoginUserOK extends BaseTest {
 
 	
 	@Before
